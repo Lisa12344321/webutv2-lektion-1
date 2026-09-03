@@ -1,1 +1,111 @@
 
+:root {
+    --dark-blue-color: rgb(37, 40, 77);
+    --white-color: white;
+    --light-blue-color: rgb(123, 130, 224);
+    --citat-color: rgb(103, 113, 255);
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 70vw;
+    justify-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: var(--light-blue-color);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--dark-blue-color);
+}
+
+
+.inledning {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    color:  var(--light-blue-color);
+    background-color: var(--dark-blue-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+
+}
+
+.article-div {
+    justify-items: center;
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    border: 4px solid var(--dark-blue-color);
+    border-radius: 15px;
+    
+}
+
+.article-div h3 {
+    margin: 0;
+}
+
+
+.citat {
+    color: var(--citat-color);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--dark-blue-color);
+    margin-bottom: 3rem;
+    font-weight: 600;
+    border-radius: 15px;
+    font-family: serif;
+}
+
+footer {
+    color: var(--dark-blue-color);
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light-blue-color);
+    justify-self: center;
+    justify-items: center;
+    width: 100%;
+}
+
+ul {
+    list-style: None;
+}
+
+.footer-li {
+
+    width: 50vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.footer-li li {
+    flex: 1;
+}
+
